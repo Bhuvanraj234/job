@@ -1,0 +1,79 @@
+/* Homepage.css */
+.top-section{
+    font-size : 15px;
+    margin : 0 auto;
+    display: flex;
+    height:10%;
+    max-height:100px;
+}
+  
+  .job-heading {
+    font-size: 28px;
+    margin: 10px 20% 20% 44%;
+    padding: 10px 0;
+    line-height: 1; 
+  }
+  
+
+  .add-job-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    height: 10%;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left:190px;
+  }
+  
+  .add-job-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .job-listings {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+  }
+  
+ 
+  li {
+    width: calc(25% - 20px); /* 25% width for each item with a 20px gap in between */
+    margin: 10px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    flex: 1;
+    max-width: calc(50% - 50px) !important;
+    flex-basis: calc(25% - 40px);
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .job-info {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  ul{
+    width:100%;
+  }
+  li:hover {
+    background-color: #e0e0e0;
+  }
+
+
+  

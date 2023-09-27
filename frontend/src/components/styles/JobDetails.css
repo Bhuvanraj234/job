@@ -1,0 +1,46 @@
+/* JobDetails.css */
+
+/* Container styles */
+.job-details-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styles */
+  .job-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Description styles */
+  .job-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Additional job details styles */
+  .job-detail {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Apply button styles */
+  .apply-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-button:hover {
+    background-color: #0056b3;
+  }
+  
