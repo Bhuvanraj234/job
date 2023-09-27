@@ -7,7 +7,6 @@ function AddJob() {
   const Navigate = useNavigate();
   const [formData, setFormData] = useState({
     title: '',
-    companyName: '',
     description: '',
     applicationDeadline: '', 
     salary: '', 
@@ -41,10 +40,7 @@ function AddJob() {
           <label className="form-label">Title:</label>
           <input className="form-input" type="text" name="title" value={formData.title} onChange={handleInputChange} required />
         </div>
-        <div className="form-field">
-          <label className="form-label">Company Name:</label>
-          <input className="form-input" type="text" name="companyName" value={formData.companyName} onChange={handleInputChange} required />
-        </div>
+        
         <div className="form-field">
           <label className="form-label">Description:</label>
           <textarea className="form-input" name="description" value={formData.description} onChange={handleInputChange} required />
