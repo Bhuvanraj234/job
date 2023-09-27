@@ -1,6 +1,3 @@
-/* JobDetails.css */
-
-/* Container styles */
 .job-details-container {
     padding: 20px;
     border: 1px solid #ccc;
@@ -9,25 +6,25 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  /* Title styles */
+
   .job-title {
     font-size: 24px;
     margin-bottom: 10px;
   }
   
-  /* Description styles */
+  
   .job-description {
     font-size: 16px;
     margin-bottom: 20px;
   }
   
-  /* Additional job details styles */
+  
   .job-detail {
     font-size: 16px;
     margin-bottom: 10px;
   }
   
-  /* Apply button styles */
+
   .apply-button {
     display: inline-block;
     padding: 10px 20px;
