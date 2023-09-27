@@ -21,7 +21,6 @@ function JobDetails() {
     <div className="job-details-container">
       <h2 className="job-title">Job Details</h2>
       <h3>Title: {jobDetails.title}</h3>
-      <p className="job-detail"><strong>Company Name:</strong> {jobDetails.companyName}</p>
       <p className="job-detail"><strong>Description:</strong> {jobDetails.description}</p>
       <p className="job-detail"><strong>Application Deadline:</strong> {jobDetails.applicationDeadline}</p>
       <p className="job-detail"><strong>Salary:</strong> {jobDetails.salary}</p>
